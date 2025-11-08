@@ -1,0 +1,16 @@
+# Chiziqli algoritmga oid misollar yechish.Python dasturlash tilida
+# 1-masala
+# a=float(input("a="))
+# b=float(input("b="))
+# c=a+b
+# d=a-b
+# e=a*b
+# print(f"yig'indi:{c}")
+# print(f"ayirma:{d}")
+# print(f"ko'paytma:{e}")
+#2-masala
+# a=float(input("kub qirrasini kiriting "))
+# s=4*a**2
+# v=a**3
+# print(f"yon sirt yuzi:{s}")
+# print(f"hajmi:{v}")
