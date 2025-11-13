@@ -1,0 +1,50 @@
+"Artuqboyeva Shaxzoda"
+Chiziqli va Tarmoqlanuvchi Algoritmga oid masalalar
+8
+yil=int(input("yilni kiriting:"))
+oy=int(input("oyni kiriting:"))
+kun=int(input("kunni kiriting:"))
+print(f"{yil} yil,{oy} oy,{kun} kun")
+7
+import math
+r=float(input("radiusni kiriting:"))
+d=float(input("masofani kiriting:"))
+l=2*math.sqrt(r**2-d**2)
+print("chordoq uzunligi",l)
+6
+h=float(input("soatni kiriting: "))
+sec=h*60
+print(sec,"sekunt")
+5
+C=float(input("C="))
+O=float(input("O="))
+H=float(input("H="))
+massa_ulushi=C/(C+O+H)*100
+print("massa ulushi",massa_ulushi,"%")
+4
+a=float(input("a="))
+b=float(input("b="))
+c=float(input("c="))
+V=a*b*c
+S=2*(a*b+b*c+c*a)
+print("V=",V)
+print("S=",S)
+3
+import math
+a=float(input("uchburchakning biribchi tomoni: "))
+b=float(input("uchburchakning ikkinchi tomoni: "))
+c=float(input("uchburchakning biribchi tomoni: "))
+p=(a+b+c)/2
+S=math.sqrt(p*(p-a)*(p-b)*(p-c))
+print("S=",S)
+2
+K=float(input("K ni kiriting:"))
+C=K-273.15
+print("celsida",C)
+1
+import math
+r=float(input("radius kiriting:"))
+L=2*math.pi*r
+S=math.pi*r**2
+print("doira uzunligi",L)
+print("doira yuzi",S)
