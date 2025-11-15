@@ -1,5 +1,23 @@
 "Artuqboyeva Shaxzoda"
-Chiziqli va Tarmoqlanuvchi Algoritmga oid masalalar
+Chiziqli va Tarmoqlanuvchi Algoritmga oid masalal
+11
+v=float(input("TEZLIKNI KIRITING: "))
+s=float(input("MASOFANI KIRITING: "))
+t=s/v
+print("vaqt=",t)
+10
+x1=float(input("x1: "))
+y1=float(input("y1: "))
+x2=float(input("x2: "))
+y2=float(input("y2: "))
+D=(x2-x1, y2-y1)
+print(f"masofa=D",D)
+9
+S=float(input("Bosh summa S:"))
+p=float(input("Yillik foiz (p%):"))
+t=float(input("Yillar soni t:"))
+A=S*(1+p/100)**t
+print(f"Yakuniy summa={A}")
 8
 yil=int(input("yilni kiriting:"))
 oy=int(input("oyni kiriting:"))
